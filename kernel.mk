@@ -20,6 +20,7 @@ BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom msm_rtb.filter=0x
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x01e00000
+BOARD_KERNEL_IMAGE_NAME := $(LOCAL_PATH)/kernel
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := SRPRD11A002KU
