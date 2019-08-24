@@ -13,10 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter j8y18lte,$(TARGET_DEVICE)),)
-
-LOCAL_PATH := device/samsung/j8y18lte/
+ifeq ($(TARGET_DEVICE), j8y18lte)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
