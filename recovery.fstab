@@ -1,24 +1,20 @@
-#
-# Copyright (C) 2018 The TwrpBuilder Open-Source Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-# http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
+/boot		   emmc		/dev/block/mmcblk0p25
+/system   	   ext4     /dev/block/mmcblk0p40
+/system_image   emmc    /dev/block/mmcblk0p40
+/data		   ext4		/dev/block/mmcblk0p46 length=-16384
+/cache		   ext4		/dev/block/mmcblk0p43
+/recovery	   emmc		/dev/block/mmcblk0p26
+/efs		   emmc     /dev/block/mmcblk0p14  flags=backup=1;display=EFS
+/efs2		   emmc     /dev/block/mmcblk0p15  flags=backup=1;subpartitionof=/efs
+/misc		   emmc	    /dev/block/mmcblk0p24  flags=backup=1;display=MISC
 
-/boot emmc /dev/block/bootdevice/by-name/boot
-/data ext4 /dev/block/bootdevice/by-name/userdata length=-16384
-/system ext4 /dev/block/bootdevice/by-name/system
-/cache ext4 /dev/block/bootdevice/by-name/cache
-/misc emmc /dev/block/bootdevice/by-name/misc
-/recovery emmc /dev/block/bootdevice/by-name/recovery
-/external_sd vfat /dev/block/mmcblk1p1 /dev/block/mmcblk1 flags=display="Micro SDcard";storage;wipeingui;removable
 
+/vendor	ext4	/dev/block/mmcblk0p41 flags=backup=1;display="vendor"
+/vendor_image	emmc	/dev/block/mmcblk0p41
+/odm	ext4 	/dev/block/mmcblk0p42	flags=backup=1;display="odm"
+/modem	emmc	/dev/block/mmcblk0p38 flags=backup=1;display="Modem"
+/mdm	emmc 	/dev/block/mmcblk0p37	flags=backup=1;display="mdm"
+/dsp	emmc	/dev/block/mmcblk0p36	flags=backup=1;display="dsp"
+
+/external_sdcard	auto           /dev/block/mmcblk1p1      /dev/block/mmcblk1   flags=display="Micro SDcard";storage;wipeingui;removable
+/usb-otg         auto       /dev/block/sda1	/dev/block/sda	flags=display="USB-OTG";storage;wipeingui;removable
