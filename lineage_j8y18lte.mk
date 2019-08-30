@@ -24,6 +24,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, vendor/lineage/config/twrp.mk)
 
+# Inherit from j8y18lte device
+$(call inherit-product, device/samsung/j8y18lte/j8y18lte.mk)
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 PRODUCT_DEVICE := j8y18lte
 PRODUCT_NAME := lineage_j8y18lte
