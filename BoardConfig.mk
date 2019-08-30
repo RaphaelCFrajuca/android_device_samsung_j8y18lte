@@ -99,4 +99,5 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 #BOARD_RECOVERY_SWIPE := true
 #BOARD_USES_MMCUTILS := true
 #BOARD_SUPPRESS_EMMC_WIPE := true
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 include $(LOCAL_PATH)/kernel.mk
