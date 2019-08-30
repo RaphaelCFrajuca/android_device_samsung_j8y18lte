@@ -21,11 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit some common carbon stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/twrp.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 PRODUCT_DEVICE := j8y18lte
-PRODUCT_NAME := omni_j8y18lte
+PRODUCT_NAME := lineage_j8y18lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-J810M
 PRODUCT_MANUFACTURER := samsung

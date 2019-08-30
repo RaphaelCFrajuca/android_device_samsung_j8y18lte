@@ -16,4 +16,4 @@
 
 LOCAL_PATH := device/samsung/j8y18lte/
 
-PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_j8y18lte.mk
+PRODUCT_MAKEFILES := $(LOCAL_PATH)/lineage_j8y18lte.mk
