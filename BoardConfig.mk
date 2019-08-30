@@ -51,6 +51,11 @@ BLUETOOTH_HCI_USE_MCT := true
 # Camera
 USE_DEVICE_SPECIFIC_CAMERA := true
 
+# Charger
+BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
+BOARD_CHARGER_ENABLE_SUSPEND := true
+BOARD_NO_CHARGER_LED := true
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := SRPRD11A002KU
 TARGET_NO_BOOTLOADER := true
