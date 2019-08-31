@@ -1,7 +1,7 @@
 /boot		   emmc		/dev/block/mmcblk0p25 defaults  defaults
 /system   	   ext4     /dev/block/mmcblk0p40 ro,barrier=1,discard  wait,recoveryonly
 /system_image   emmc    /dev/block/mmcblk0p40 ro,barrier=1,discard  wait,recoveryonly
-/data		   ext4		/dev/block/mmcblk0p46 length=-16384,noatime,nosuid,nodev,barrier=1,noauto_da_alloc,discard  wait,check
+/data		   ext4		/dev/block/mmcblk0p46 noatime,nosuid,nodev,barrier=1,noauto_da_alloc,discard  wait,check
 /cache		   ext4		/dev/block/mmcblk0p43 nosuid,nodev,noatime  wait,formattable,check
 /efs		   emmc     /dev/block/mmcblk0p14  nosuid,nodev,noatime,noauto_da_alloc,discard,journal_async_commit,data=ordered,errors=panic  wait,check
 /misc		   emmc	    /dev/block/mmcblk0p24  defaults defaults
