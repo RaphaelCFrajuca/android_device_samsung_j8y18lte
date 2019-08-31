@@ -269,3 +269,65 @@ PRODUCT_COPY_FILES += \
 # Wi-Fi Display
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Input
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/AVRCP.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/AVRCP.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_046d_Product_b501.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_046d_Product_b501.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_04e8_Product_a009.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_04e8_Product_a009.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_1532_Product_0900.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1532_Product_0900.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_22b8_Product_093d.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_22b8_Product_093d.kl \
+    $(LOCAL_PATH)/keylayout/Generic.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Generic.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_046d_Product_c216.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_046d_Product_c216.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_054c_Product_0268.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_054c_Product_0268.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_1689_Product_fd00.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1689_Product_fd00.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_2378_Product_1008.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_2378_Product_1008.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_0079_Product_0011.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0079_Product_0011.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_046d_Product_c219.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_046d_Product_c219.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_054c_Product_05c4.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_054c_Product_05c4.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_1689_Product_fd01.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1689_Product_fd01.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_2378_Product_100a.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_2378_Product_100a.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_045e_Product_028e.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_045e_Product_028e.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_046d_Product_c21d.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_046d_Product_c21d.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_054c_Product_09cc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_054c_Product_09cc.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_1689_Product_fe00.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1689_Product_fe00.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_2943_Product_0020.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_2943_Product_0020.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_045e_Product_02d1.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_045e_Product_02d1.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_046d_Product_c21f.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_046d_Product_c21f.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_0583_Product_2060.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0583_Product_2060.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_18d1_Product_2c40.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_18d1_Product_2c40.kl \
+    $(LOCAL_PATH)/keylayout/ft5x06_ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/ft5x06_ts.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_045e_Product_02e0.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_045e_Product_02e0.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_046d_Product_c294.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_046d_Product_c294.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_05ac_Product_0239.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_05ac_Product_0239.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_18d1_Product_5018.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_18d1_Product_5018.kl \
+    $(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_0461_Product_4dfc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0461_Product_4dfc.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_046d_Product_c299.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_046d_Product_c299.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_05ac_Product_0255.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_05ac_Product_0255.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_1949_Product_0401.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1949_Product_0401.kl \
+    $(LOCAL_PATH)/keylayout/qwerty.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/qwerty.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_046d_Product_b32f.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_046d_Product_b32f.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_046d_Product_c532.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_046d_Product_c532.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_0738_Product_5250.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0738_Product_5250.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_1bad_Product_f016.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1bad_Product_f016.kl \
+    $(LOCAL_PATH)/keylayout/synaptics_dsx.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/synaptics_dsx.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_046d_Product_b331.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_046d_Product_b331.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_04e8_Product_7021.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_04e8_Product_7021.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_0738_Product_5274.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0738_Product_5274.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_1bad_Product_f023.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1bad_Product_f023.kl \
+    $(LOCAL_PATH)/keylayout/synaptics_dsxv26.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/synaptics_dsxv26.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_046d_Product_b332.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_046d_Product_b332.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_04e8_Product_a000.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_04e8_Product_a000.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_0b05_Product_4500.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0b05_Product_4500.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_1bad_Product_f027.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1bad_Product_f027.kl \
+    $(LOCAL_PATH)/keylayout/synaptics_rmi4_i2c.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/synaptics_rmi4_i2c.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_046d_Product_b343.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_046d_Product_b343.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_04e8_Product_a005.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_04e8_Product_a005.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_1038_Product_1412.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1038_Product_1412.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_1bad_Product_f036.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1bad_Product_f036.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_046d_Product_b344.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_046d_Product_b344.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_04e8_Product_a006.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_04e8_Product_a006.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_12bd_Product_d015.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_12bd_Product_d015.kl \
+    $(LOCAL_PATH)/keylayout/Vendor_1d79_Product_0009.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1d79_Product_0009.kl
+
